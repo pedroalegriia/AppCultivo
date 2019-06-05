@@ -1,0 +1,41 @@
+<ion-content no-bounce>
+    <div class="cover">
+        <img src="assets/imgs/medico.jpg" />
+    </div>
+    <div class="avatar">
+        <img src="assets/imgs/avatar.png" />
+    </div>
+    <div class="fab fab-top fab-right">
+        <button ion-fab color="green"><ion-icon name="ios-camera"></ion-icon></button>
+    </div>
+    <div class="fab fab-top fab-left">
+        <button ion-fab color="green"><ion-icon name="ios-refresh"></ion-icon></button>
+    </div>
+
+    <div>
+        <h2 class="center">Pedro Cruz Alegria</h2>
+        <ion-list no-border>
+            <ion-list-header>
+
+            </ion-list-header>
+            <ion-item>
+                <ion-icon name='call' item-left></ion-icon>
+                312-141-7118
+            </ion-item>
+            <ion-item>
+                <ion-icon name='mail' item-left></ion-icon>
+                pedro_alegriia@innobit.com.mx
+            </ion-item>
+            <ion-item>
+                <ion-icon name='calendar' item-left></ion-icon>
+                5 noviembre
+            </ion-item>
+            <ion-item>
+                <ion-icon name='person' item-left></ion-icon>
+                hombre
+            </ion-item>
+
+        </ion-list>
+        <div padding><button ion-button round block  color="green" (click)="logout()">Cerrar Sesion</button></div>
+    </div>
+</ion-content>

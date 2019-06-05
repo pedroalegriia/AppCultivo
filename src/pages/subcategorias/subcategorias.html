@@ -1,0 +1,734 @@
+<ion-header>
+  <ion-navbar color='navbarColor'>
+    <ion-title>Registro Campo</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <form>
+    <div class="productores">
+            <ion-item>
+            <ion-label>Productores</ion-label>
+            <ion-select ng-option="note.nombre">
+              <ion-option value="f">selecciona uno</ion-option>
+            <!--  <ion-option value="w">Oscar avalos</ion-option>
+              <ion-option value="e">Roberto Maldonado</ion-option>
+              <ion-option value="r">Joaquin arechiga</ion-option>
+              <ion-option value="t">Andres jaramillo</ion-option>
+              <ion-option value="y">Alfonso gonzales</ion-option>
+              -->
+            </ion-select>
+          </ion-item>
+          <ion-item class="input">
+            <ion-label floating>
+              <ion-icon name="person" item-start class="text"></ion-icon>
+              Predio
+            </ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+
+          <ion-item>
+          <ion-label>Semana recomendacion</ion-label>
+          <ion-select>
+            <ion-option value="f">0</ion-option>
+            <ion-option value="w">1</ion-option>
+            <ion-option value="e">2</ion-option>
+            <ion-option value="r">3</ion-option>
+            <ion-option value="t">4</ion-option>
+            <ion-option value="y">5</ion-option>
+            <ion-option value="y">6</ion-option>
+            <ion-option value="y">7</ion-option>
+            <ion-option value="y">8</ion-option>
+            <ion-option value="y">9</ion-option>
+            <ion-option value="y">10</ion-option>
+            <ion-option value="y">11</ion-option>
+            <ion-option value="y">12</ion-option>
+            <ion-option value="y">13</ion-option>
+            <ion-option value="y">14</ion-option>
+            <ion-option value="y">15</ion-option>
+            <ion-option value="y">16</ion-option>
+            <ion-option value="y">17</ion-option>
+            <ion-option value="y">18</ion-option>
+            <ion-option value="y">19</ion-option>
+            <ion-option value="y">20</ion-option>
+            <ion-option value="y">21</ion-option>
+            <ion-option value="y">22</ion-option>
+            <ion-option value="y">23</ion-option>
+            <ion-option value="y">24</ion-option>
+            <ion-option value="y">25</ion-option>
+            <ion-option value="y">26</ion-option>
+            <ion-option value="y">27</ion-option>
+            <ion-option value="y">28</ion-option>
+            <ion-option value="y">29</ion-option>
+            <ion-option value="y">20</ion-option>
+            <ion-option value="y">31</ion-option>
+            <ion-option value="y">32</ion-option>
+            <ion-option value="y">33</ion-option>
+            <ion-option value="y">34</ion-option>
+            <ion-option value="y">35</ion-option>
+            <ion-option value="y">36</ion-option>
+            <ion-option value="y">37</ion-option>
+            <ion-option value="y">38</ion-option>
+            <ion-option value="y">39</ion-option>
+            <ion-option value="y">40</ion-option>
+            <ion-option value="y">41</ion-option>
+            <ion-option value="y">42</ion-option>
+            <ion-option value="y">43</ion-option>
+            <ion-option value="y">44</ion-option>
+            <ion-option value="y">45</ion-option>
+            <ion-option value="y">46</ion-option>
+            <ion-option value="y">47</ion-option>
+            <ion-option value="y">48</ion-option>
+            <ion-option value="y">49</ion-option>
+            <ion-option value="y">50</ion-option>
+            <ion-option value="y">51</ion-option>
+            <ion-option value="y">52</ion-option>
+          </ion-select>
+        </ion-item>
+
+          <ion-item>
+          <ion-label>Semana evaluacion</ion-label>
+          <ion-select>
+            <ion-option value="f">0</ion-option>
+            <ion-option value="w">1</ion-option>
+            <ion-option value="e">2</ion-option>
+            <ion-option value="r">3</ion-option>
+            <ion-option value="t">4</ion-option>
+            <ion-option value="y">5</ion-option>
+            <ion-option value="y">6</ion-option>
+            <ion-option value="y">7</ion-option>
+            <ion-option value="y">8</ion-option>
+            <ion-option value="y">9</ion-option>
+            <ion-option value="y">10</ion-option>
+            <ion-option value="y">11</ion-option>
+            <ion-option value="y">12</ion-option>
+            <ion-option value="y">13</ion-option>
+            <ion-option value="y">14</ion-option>
+            <ion-option value="y">15</ion-option>
+            <ion-option value="y">16</ion-option>
+            <ion-option value="y">17</ion-option>
+            <ion-option value="y">18</ion-option>
+            <ion-option value="y">19</ion-option>
+            <ion-option value="y">20</ion-option>
+            <ion-option value="y">21</ion-option>
+            <ion-option value="y">22</ion-option>
+            <ion-option value="y">23</ion-option>
+            <ion-option value="y">24</ion-option>
+            <ion-option value="y">25</ion-option>
+            <ion-option value="y">26</ion-option>
+            <ion-option value="y">27</ion-option>
+            <ion-option value="y">28</ion-option>
+            <ion-option value="y">29</ion-option>
+            <ion-option value="y">20</ion-option>
+            <ion-option value="y">31</ion-option>
+            <ion-option value="y">32</ion-option>
+            <ion-option value="y">33</ion-option>
+            <ion-option value="y">34</ion-option>
+            <ion-option value="y">35</ion-option>
+            <ion-option value="y">36</ion-option>
+            <ion-option value="y">37</ion-option>
+            <ion-option value="y">38</ion-option>
+            <ion-option value="y">39</ion-option>
+            <ion-option value="y">40</ion-option>
+            <ion-option value="y">41</ion-option>
+            <ion-option value="y">42</ion-option>
+            <ion-option value="y">43</ion-option>
+            <ion-option value="y">44</ion-option>
+            <ion-option value="y">45</ion-option>
+            <ion-option value="y">46</ion-option>
+            <ion-option value="y">47</ion-option>
+            <ion-option value="y">48</ion-option>
+            <ion-option value="y">49</ion-option>
+            <ion-option value="y">50</ion-option>
+            <ion-option value="y">51</ion-option>
+            <ion-option value="y">52</ion-option>
+          </ion-select>
+        </ion-item>
+  </div>
+  <!--inicia la seleccion de importancia-->
+<div class="riego">
+  <h4>Riego</h4>
+  <ion-item>
+      <ion-label>Periodo</ion-label>
+      <ion-select name="periodo" required="">
+        <ion-option value="uno">1</ion-option>
+        <ion-option value="dos">2</ion-option>
+          <ion-option value="tres">3</ion-option>
+            <ion-option value="cuatro">4</ion-option>
+              <ion-option value="cinco">5</ion-option>
+                <ion-option value="seis">6</ion-option>
+                  <ion-option value="siete">7</ion-option>
+                    <ion-option value="ocho">8</ion-option>
+                      <ion-option value="nueve">9</ion-option>
+                        <ion-option value="diez">10</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Invervalo</ion-label>
+        <ion-select  name="intervalo" required="">
+          <ion-option value="uno">1</ion-option>
+          <ion-option value="dos">2</ion-option>
+            <ion-option value="tres">3</ion-option>
+              <ion-option value="cuatro">4</ion-option>
+                <ion-option value="cinco">5</ion-option>
+                  <ion-option value="seis">6</ion-option>
+                    <ion-option value="siete">7</ion-option>
+                      <ion-option value="ocho">8</ion-option>
+                        <ion-option value="nueve">9</ion-option>
+                          <ion-option value="diez">10</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>Funcionamiento correcto</ion-label>
+          <ion-select  name="funcorrecto" required="">
+            <ion-option value="uno">1</ion-option>
+            <ion-option value="dos">2</ion-option>
+              <ion-option value="tres">3</ion-option>
+                <ion-option value="cuatro">4</ion-option>
+                  <ion-option value="cinco">5</ion-option>
+                    <ion-option value="seis">6</ion-option>
+                      <ion-option value="siete">7</ion-option>
+                        <ion-option value="ocho">8</ion-option>
+                          <ion-option value="nueve">9</ion-option>
+                            <ion-option value="diez">10</ion-option>
+          </ion-select>
+        </ion-item>
+    </div>
+
+    <!--drenaje-->
+    <div class="drenaje">
+      <h4>Drenaje</h4>
+
+      <ion-item>
+          <ion-label>Profundidad</ion-label>
+          <ion-select name="profundidad" required="">
+            <ion-option value="uno">1</ion-option>
+            <ion-option value="dos">2</ion-option>
+              <ion-option value="tres">3</ion-option>
+                <ion-option value="cuatro">4</ion-option>
+                  <ion-option value="cinco">5</ion-option>
+                    <ion-option value="seis">6</ion-option>
+                      <ion-option value="siete">7</ion-option>
+                        <ion-option value="ocho">8</ion-option>
+                          <ion-option value="nueve">9</ion-option>
+                            <ion-option value="diez">10</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-label>Distancia entre drenes</ion-label>
+            <ion-select name="distancia" required="">
+              <ion-option value="uno">1</ion-option>
+              <ion-option value="dos">2</ion-option>
+                <ion-option value="tres">3</ion-option>
+                  <ion-option value="cuatro">4</ion-option>
+                    <ion-option value="cinco">5</ion-option>
+                      <ion-option value="seis">6</ion-option>
+                        <ion-option value="siete">7</ion-option>
+                          <ion-option value="ocho">8</ion-option>
+                            <ion-option value="nueve">9</ion-option>
+                              <ion-option value="diez">10</ion-option>
+            </ion-select>
+          </ion-item>
+    </div>
+
+    <div class="minicomposteo">
+      <h4>Minicomposteo</h4>
+
+      <ion-item>
+          <ion-label>Alineada frente al hijo</ion-label>
+          <ion-select  name="alineada" required="">
+            <ion-option value="uno">1</ion-option>
+            <ion-option value="dos">2</ion-option>
+              <ion-option value="tres">3</ion-option>
+                <ion-option value="cuatro">4</ion-option>
+                  <ion-option value="cinco">5</ion-option>
+                    <ion-option value="seis">6</ion-option>
+                      <ion-option value="siete">7</ion-option>
+                        <ion-option value="ocho">8</ion-option>
+                          <ion-option value="nueve">9</ion-option>
+                            <ion-option value="diez">10</ion-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Tallo sobre la hoja</ion-label>
+            <ion-select  name="tallo" required="">
+              <ion-option value="uno">1</ion-option>
+              <ion-option value="dos">2</ion-option>
+                <ion-option value="tres">3</ion-option>
+                  <ion-option value="cuatro">4</ion-option>
+                    <ion-option value="cinco">5</ion-option>
+                      <ion-option value="seis">6</ion-option>
+                        <ion-option value="siete">7</ion-option>
+                          <ion-option value="ocho">8</ion-option>
+                            <ion-option value="nueve">9</ion-option>
+                              <ion-option value="diez">10</ion-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+              <ion-label>Se incorporan platanos de desecho</ion-label>
+              <ion-select  name="desecho" required="">
+                <ion-option value="uno">1</ion-option>
+                <ion-option value="dos">2</ion-option>
+                  <ion-option value="tres">3</ion-option>
+                    <ion-option value="cuatro">4</ion-option>
+                      <ion-option value="cinco">5</ion-option>
+                        <ion-option value="seis">6</ion-option>
+                          <ion-option value="siete">7</ion-option>
+                            <ion-option value="ocho">8</ion-option>
+                              <ion-option value="nueve">9</ion-option>
+                                <ion-option value="diez">10</ion-option>
+              </ion-select>
+            </ion-item>
+    </div>
+
+    <div class="control-bueneza">
+      <h4>Control de bueneza</h4>
+
+      <ion-item>
+          <ion-label>Solo cultural manual y/o mecanico</ion-label>
+          <ion-select name="cultural" required="">
+            <ion-option value="uno">1</ion-option>
+            <ion-option value="dos">2</ion-option>
+              <ion-option value="tres">3</ion-option>
+                <ion-option value="cuatro">4</ion-option>
+                  <ion-option value="cinco">5</ion-option>
+                    <ion-option value="seis">6</ion-option>
+                      <ion-option value="siete">7</ion-option>
+                        <ion-option value="ocho">8</ion-option>
+                          <ion-option value="nueve">9</ion-option>
+                            <ion-option value="diez">10</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-label>Realizado a tiempo</ion-label>
+            <ion-select  name="realizado" required="">
+              <ion-option value="uno">1</ion-option>
+              <ion-option value="dos">2</ion-option>
+                <ion-option value="tres">3</ion-option>
+                  <ion-option value="cuatro">4</ion-option>
+                    <ion-option value="cinco">5</ion-option>
+                      <ion-option value="seis">6</ion-option>
+                        <ion-option value="siete">7</ion-option>
+                          <ion-option value="ocho">8</ion-option>
+                            <ion-option value="nueve">9</ion-option>
+                              <ion-option value="diez">10</ion-option>
+            </ion-select>
+          </ion-item>
+          <ion-item>
+              <ion-label>Se han arrancado los bejucos</ion-label>
+              <ion-select  name="bejucos" required="">
+                <ion-option value="uno">1</ion-option>
+                <ion-option value="dos">2</ion-option>
+                  <ion-option value="tres">3</ion-option>
+                    <ion-option value="cuatro">4</ion-option>
+                      <ion-option value="cinco">5</ion-option>
+                        <ion-option value="seis">6</ion-option>
+                          <ion-option value="siete">7</ion-option>
+                            <ion-option value="ocho">8</ion-option>
+                              <ion-option value="nueve">9</ion-option>
+                                <ion-option value="diez">10</ion-option>
+              </ion-select>
+            </ion-item>
+
+    </div>
+
+    <ion-item>
+    <ion-textarea name="recomandacionuno" placeholder="Nueva recomendacion"></ion-textarea>
+  </ion-item>
+
+  <h4 class="manejo">Manejo planta</h4>
+  <h4>Control de picudo</h4>
+
+  <div class="">
+    <ion-item>
+        <ion-label>colocacion de trampas</ion-label>
+        <ion-select  name="colocacion" required="">
+          <ion-option value="uno">1</ion-option>
+          <ion-option value="dos">2</ion-option>
+            <ion-option value="tres">3</ion-option>
+              <ion-option value="cuatro">4</ion-option>
+                <ion-option value="cinco">5</ion-option>
+                  <ion-option value="seis">6</ion-option>
+                    <ion-option value="siete">7</ion-option>
+                      <ion-option value="ocho">8</ion-option>
+                        <ion-option value="nueve">9</ion-option>
+                          <ion-option value="diez">10</ion-option>
+        </ion-select>
+      </ion-item>
+  </div>
+
+  <div class="">
+    <ion-item>
+        <ion-label>conteo de insectos</ion-label>
+        <ion-select  name="conteo" required="">
+          <ion-option value="uno">1</ion-option>
+          <ion-option value="dos">2</ion-option>
+            <ion-option value="tres">3</ion-option>
+              <ion-option value="cuatro">4</ion-option>
+                <ion-option value="cinco">5</ion-option>
+                  <ion-option value="seis">6</ion-option>
+                    <ion-option value="siete">7</ion-option>
+                      <ion-option value="ocho">8</ion-option>
+                        <ion-option value="nueve">9</ion-option>
+                          <ion-option value="diez">10</ion-option>
+        </ion-select>
+      </ion-item>
+  </div>
+
+  <h4>Control de pulgones</h4>
+    <div class="">
+      <ion-item>
+          <ion-label>presencia de plaga</ion-label>
+          <ion-select  name="presencia" required="">
+            <ion-option value="uno">1</ion-option>
+            <ion-option value="dos">2</ion-option>
+              <ion-option value="tres">3</ion-option>
+                <ion-option value="cuatro">4</ion-option>
+                  <ion-option value="cinco">5</ion-option>
+                    <ion-option value="seis">6</ion-option>
+                      <ion-option value="siete">7</ion-option>
+                        <ion-option value="ocho">8</ion-option>
+                          <ion-option value="nueve">9</ion-option>
+                            <ion-option value="diez">10</ion-option>
+          </ion-select>
+        </ion-item>
+    </div>
+
+    <h4>Control de sigatoka</h4>
+    <div class="">
+      <ion-item>
+          <ion-label>Aplicacion de producto recomendado</ion-label>
+          <ion-select name="producto" required="">
+            <ion-option value="uno">1</ion-option>
+            <ion-option value="dos">2</ion-option>
+              <ion-option value="tres">3</ion-option>
+                <ion-option value="cuatro">4</ion-option>
+                  <ion-option value="cinco">5</ion-option>
+                    <ion-option value="seis">6</ion-option>
+                      <ion-option value="siete">7</ion-option>
+                        <ion-option value="ocho">8</ion-option>
+                          <ion-option value="nueve">9</ion-option>
+                            <ion-option value="diez">10</ion-option>
+          </ion-select>
+        </ion-item>
+    </div>
+    <ion-item>
+        <ion-label>Cobertura</ion-label>
+        <ion-select  name="cobertura" required="">
+          <ion-option value="uno">1</ion-option>
+          <ion-option value="dos">2</ion-option>
+            <ion-option value="tres">3</ion-option>
+              <ion-option value="cuatro">4</ion-option>
+                <ion-option value="cinco">5</ion-option>
+                  <ion-option value="seis">6</ion-option>
+                    <ion-option value="siete">7</ion-option>
+                      <ion-option value="ocho">8</ion-option>
+                        <ion-option value="nueve">9</ion-option>
+                          <ion-option value="diez">10</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+          <ion-label>Utilizacion de coadyuvantes</ion-label>
+          <ion-select  name="utilizacion" required="">
+            <ion-option value="uno">1</ion-option>
+            <ion-option value="dos">2</ion-option>
+              <ion-option value="tres">3</ion-option>
+                <ion-option value="cuatro">4</ion-option>
+                  <ion-option value="cinco">5</ion-option>
+                    <ion-option value="seis">6</ion-option>
+                      <ion-option value="siete">7</ion-option>
+                        <ion-option value="ocho">8</ion-option>
+                          <ion-option value="nueve">9</ion-option>
+                            <ion-option value="diez">10</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-label>Dosis correcta</ion-label>
+            <ion-select  name="dosis" required="">
+              <ion-option value="uno">1</ion-option>
+              <ion-option value="dos">2</ion-option>
+                <ion-option value="tres">3</ion-option>
+                  <ion-option value="cuatro">4</ion-option>
+                    <ion-option value="cinco">5</ion-option>
+                      <ion-option value="seis">6</ion-option>
+                        <ion-option value="siete">7</ion-option>
+                          <ion-option value="ocho">8</ion-option>
+                            <ion-option value="nueve">9</ion-option>
+                              <ion-option value="diez">10</ion-option>
+            </ion-select>
+          </ion-item>
+          <ion-item>
+              <ion-label>Condiciones ambientales adecuadas</ion-label>
+              <ion-select  name="condiciones" required="">
+                <ion-option value="uno">1</ion-option>
+                <ion-option value="dos">2</ion-option>
+                  <ion-option value="tres">3</ion-option>
+                    <ion-option value="cuatro">4</ion-option>
+                      <ion-option value="cinco">5</ion-option>
+                        <ion-option value="seis">6</ion-option>
+                          <ion-option value="siete">7</ion-option>
+                            <ion-option value="ocho">8</ion-option>
+                              <ion-option value="nueve">9</ion-option>
+                                <ion-option value="diez">10</ion-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+                <ion-label>numero exacto de pasadas del avion</ion-label>
+                <ion-select  name="numero" required="">
+                  <ion-option value="uno">1</ion-option>
+                  <ion-option value="dos">2</ion-option>
+                    <ion-option value="tres">3</ion-option>
+                      <ion-option value="cuatro">4</ion-option>
+                        <ion-option value="cinco">5</ion-option>
+                          <ion-option value="seis">6</ion-option>
+                            <ion-option value="siete">7</ion-option>
+                              <ion-option value="ocho">8</ion-option>
+                                <ion-option value="nueve">9</ion-option>
+                                  <ion-option value="diez">10</ion-option>
+                </ion-select>
+              </ion-item>
+        <h4>Control de acaros</h4>
+        <div class="">
+          <ion-item>
+              <ion-label>Aplicacion del producto recomendado</ion-label>
+              <ion-select  name="apprecomendado" required="">
+                <ion-option value="uno">1</ion-option>
+                <ion-option value="dos">2</ion-option>
+                  <ion-option value="tres">3</ion-option>
+                    <ion-option value="cuatro">4</ion-option>
+                      <ion-option value="cinco">5</ion-option>
+                        <ion-option value="seis">6</ion-option>
+                          <ion-option value="siete">7</ion-option>
+                            <ion-option value="ocho">8</ion-option>
+                              <ion-option value="nueve">9</ion-option>
+                                <ion-option value="diez">10</ion-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+                <ion-label>Dosis correcta</ion-label>
+                <ion-select name="docorrecta"required="">
+                  <ion-option value="uno">1</ion-option>
+                  <ion-option value="dos">2</ion-option>
+                    <ion-option value="tres">3</ion-option>
+                      <ion-option value="cuatro">4</ion-option>
+                        <ion-option value="cinco">5</ion-option>
+                          <ion-option value="seis">6</ion-option>
+                            <ion-option value="siete">7</ion-option>
+                              <ion-option value="ocho">8</ion-option>
+                                <ion-option value="nueve">9</ion-option>
+                                  <ion-option value="diez">10</ion-option>
+                </ion-select>
+              </ion-item>
+              <ion-item>
+                  <ion-label>Condiciones ambientales adecuadas</ion-label>
+                  <ion-select name="conambientales" required="">
+                    <ion-option value="uno">1</ion-option>
+                    <ion-option value="dos">2</ion-option>
+                      <ion-option value="tres">3</ion-option>
+                        <ion-option value="cuatro">4</ion-option>
+                          <ion-option value="cinco">5</ion-option>
+                            <ion-option value="seis">6</ion-option>
+                              <ion-option value="siete">7</ion-option>
+                                <ion-option value="ocho">8</ion-option>
+                                  <ion-option value="nueve">9</ion-option>
+                                    <ion-option value="diez">10</ion-option>
+                  </ion-select>
+                </ion-item>
+                <ion-item>
+                    <ion-label>Aplicacion de coadyuvantes</ion-label>
+                    <ion-select  name="coad" required="">
+                      <ion-option value="uno">1</ion-option>
+                      <ion-option value="dos">2</ion-option>
+                        <ion-option value="tres">3</ion-option>
+                          <ion-option value="cuatro">4</ion-option>
+                            <ion-option value="cinco">5</ion-option>
+                              <ion-option value="seis">6</ion-option>
+                                <ion-option value="siete">7</ion-option>
+                                  <ion-option value="ocho">8</ion-option>
+                                    <ion-option value="nueve">9</ion-option>
+                                      <ion-option value="diez">10</ion-option>
+                    </ion-select>
+                  </ion-item>
+        </div>
+        <h4>Control de floriales</h4>
+        <div class="">
+          <ion-item>
+              <ion-label>Aplicacion del producto recomendado</ion-label>
+              <ion-select  name="app2" required="">
+                <ion-option value="uno">1</ion-option>
+                <ion-option value="dos">2</ion-option>
+                  <ion-option value="tres">3</ion-option>
+                    <ion-option value="cuatro">4</ion-option>
+                      <ion-option value="cinco">5</ion-option>
+                        <ion-option value="seis">6</ion-option>
+                          <ion-option value="siete">7</ion-option>
+                            <ion-option value="ocho">8</ion-option>
+                              <ion-option value="nueve">9</ion-option>
+                                <ion-option value="diez">10</ion-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+                <ion-label>Dosis correcta</ion-label>
+                <ion-select  name="dos2" required="">
+                  <ion-option value="uno">1</ion-option>
+                  <ion-option value="dos">2</ion-option>
+                    <ion-option value="tres">3</ion-option>
+                      <ion-option value="cuatro">4</ion-option>
+                        <ion-option value="cinco">5</ion-option>
+                          <ion-option value="seis">6</ion-option>
+                            <ion-option value="siete">7</ion-option>
+                              <ion-option value="ocho">8</ion-option>
+                                <ion-option value="nueve">9</ion-option>
+                                  <ion-option value="diez">10</ion-option>
+                </ion-select>
+              </ion-item>
+              <ion-item>
+                  <ion-label>Condiciones ambientales adecuadas</ion-label>
+                  <ion-select  name="condiciones2" required="">
+                    <ion-option value="uno">1</ion-option>
+                    <ion-option value="dos">2</ion-option>
+                      <ion-option value="tres">3</ion-option>
+                        <ion-option value="cuatro">4</ion-option>
+                          <ion-option value="cinco">5</ion-option>
+                            <ion-option value="seis">6</ion-option>
+                              <ion-option value="siete">7</ion-option>
+                                <ion-option value="ocho">8</ion-option>
+                                  <ion-option value="nueve">9</ion-option>
+                                    <ion-option value="diez">10</ion-option>
+                  </ion-select>
+                </ion-item>
+                <ion-item>
+                    <ion-label>Numero exacto de pasadas del avion</ion-label>
+                    <ion-select   name="numeroexacto" required="">
+                      <ion-option value="uno">1</ion-option>
+                      <ion-option value="dos">2</ion-option>
+                        <ion-option value="tres">3</ion-option>
+                          <ion-option value="cuatro">4</ion-option>
+                            <ion-option value="cinco">5</ion-option>
+                              <ion-option value="seis">6</ion-option>
+                                <ion-option value="siete">7</ion-option>
+                                  <ion-option value="ocho">8</ion-option>
+                                    <ion-option value="nueve">9</ion-option>
+                                      <ion-option value="diez">10</ion-option>
+                    </ion-select>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label>mezcla de coadyuvantes</ion-label>
+                      <ion-select  name="mezclade" required="">
+                        <ion-option value="uno">1</ion-option>
+                        <ion-option value="dos">2</ion-option>
+                          <ion-option value="tres">3</ion-option>
+                            <ion-option value="cuatro">4</ion-option>
+                              <ion-option value="cinco">5</ion-option>
+                                <ion-option value="seis">6</ion-option>
+                                  <ion-option value="siete">7</ion-option>
+                                    <ion-option value="ocho">8</ion-option>
+                                      <ion-option value="nueve">9</ion-option>
+                                        <ion-option value="diez">10</ion-option>
+                      </ion-select>
+                    </ion-item>
+        </div>
+        <h4>Dehije</h4>
+        <div class="">
+          <ion-item>
+              <ion-label>Se elimina del hijo bajero</ion-label>
+              <ion-select  name="elimina" required="">
+                <ion-option value="uno">1</ion-option>
+                <ion-option value="dos">2</ion-option>
+                  <ion-option value="tres">3</ion-option>
+                    <ion-option value="cuatro">4</ion-option>
+                      <ion-option value="cinco">5</ion-option>
+                        <ion-option value="seis">6</ion-option>
+                          <ion-option value="siete">7</ion-option>
+                            <ion-option value="ocho">8</ion-option>
+                              <ion-option value="nueve">9</ion-option>
+                                <ion-option value="diez">10</ion-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+                <ion-label>Se limpia el tallo</ion-label>
+                <ion-select  name="limpia" required="">
+                  <ion-option value="uno">1</ion-option>
+                  <ion-option value="dos">2</ion-option>
+                    <ion-option value="tres">3</ion-option>
+                      <ion-option value="cuatro">4</ion-option>
+                        <ion-option value="cinco">5</ion-option>
+                          <ion-option value="seis">6</ion-option>
+                            <ion-option value="siete">7</ion-option>
+                              <ion-option value="ocho">8</ion-option>
+                                <ion-option value="nueve">9</ion-option>
+                                  <ion-option value="diez">10</ion-option>
+                </ion-select>
+              </ion-item>
+              <ion-item>
+                  <ion-label>Ubicacion correcta</ion-label>
+                  <ion-select  name="ubicacion" required="">
+                    <ion-option value="uno">1</ion-option>
+                    <ion-option value="dos">2</ion-option>
+                      <ion-option value="tres">3</ion-option>
+                        <ion-option value="cuatro">4</ion-option>
+                          <ion-option value="cinco">5</ion-option>
+                            <ion-option value="seis">6</ion-option>
+                              <ion-option value="siete">7</ion-option>
+                                <ion-option value="ocho">8</ion-option>
+                                  <ion-option value="nueve">9</ion-option>
+                                    <ion-option value="diez">10</ion-option>
+                  </ion-select>
+                </ion-item>
+                <ion-item>
+                    <ion-label>Replante de caballo</ion-label>
+                    <ion-select  name="replante" required="">
+                      <ion-option value="uno">1</ion-option>
+                      <ion-option value="dos">2</ion-option>
+                        <ion-option value="tres">3</ion-option>
+                          <ion-option value="cuatro">4</ion-option>
+                            <ion-option value="cinco">5</ion-option>
+                              <ion-option value="seis">6</ion-option>
+                                <ion-option value="siete">7</ion-option>
+                                  <ion-option value="ocho">8</ion-option>
+                                    <ion-option value="nueve">9</ion-option>
+                                      <ion-option value="diez">10</ion-option>
+                    </ion-select>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label>Saneo especial</ion-label>
+                      <ion-select name="saneo" required="">
+                        <ion-option value="uno">1</ion-option>
+                        <ion-option value="dos">2</ion-option>
+                          <ion-option value="tres">3</ion-option>
+                            <ion-option value="cuatro">4</ion-option>
+                              <ion-option value="cinco">5</ion-option>
+                                <ion-option value="seis">6</ion-option>
+                                  <ion-option value="siete">7</ion-option>
+                                    <ion-option value="ocho">8</ion-option>
+                                      <ion-option value="nueve">9</ion-option>
+                                        <ion-option value="diez">10</ion-option>
+                      </ion-select>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label>Labores culturales</ion-label>
+                        <ion-select  name="labores" required="">
+                          <ion-option value="uno">1</ion-option>
+                          <ion-option value="dos">2</ion-option>
+                            <ion-option value="tres">3</ion-option>
+                              <ion-option value="cuatro">4</ion-option>
+                                <ion-option value="cinco">5</ion-option>
+                                  <ion-option value="seis">6</ion-option>
+                                    <ion-option value="siete">7</ion-option>
+                                      <ion-option value="ocho">8</ion-option>
+                                        <ion-option value="nueve">9</ion-option>
+                                          <ion-option value="diez">10</ion-option>
+                        </ion-select>
+                      </ion-item>
+        </div>
+        <ion-item>
+        <ion-textarea name="recomendaciondos" placeholder="Nueva recomendacion"></ion-textarea>
+      </ion-item>
+       <button ion-button icon-start block color="yellow" type="submit" block>Guardar</button>
+
+</form>
+
+</ion-content>

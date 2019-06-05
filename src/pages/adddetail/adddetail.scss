@@ -1,0 +1,33 @@
+page-adddetail {
+  .cover{
+    background-image: url(../assets/imgs/fondoCultivo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  .botones{
+    margin-top: 30px;
+  }
+  .input{
+    margin-top: 40px;
+
+    border: none;
+  }
+  .input ion-item{
+    background-color:rgba(0,0,0,0 );
+    border: none;
+    ::-webkit-input-placeholder { color: #B7B2B2;}
+ :-moz-placeholder { color: #B7B2B2; }
+ ::-moz-placeholder { color: #B7B2B2; }
+ :-ms-input-placeholder { color: #B7B2B2; }
+  }
+  ion-title{
+    text-align:left;
+    font-size: 2em;
+    font-color:#0B610B;
+  }
+  ion-navbar title{
+    background-color: #0B610B;
+  }
+}

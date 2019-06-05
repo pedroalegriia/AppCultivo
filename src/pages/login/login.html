@@ -1,0 +1,35 @@
+<ion-content class="bg-img">
+
+  <div class="cover">
+        <img src="assets/imgs/cultivoapp.png" />
+  </div>
+  <div class="login">
+    <!-- Login form -->
+  <!--     <form class="list-form"> -->
+      <div class="acceso">
+
+            <ion-item class="input">
+              <ion-label floating>
+                <ion-icon  name="person"  item-start class="text-yellow"></ion-icon>
+              Usuario
+              </ion-label>
+              <ion-input type="text" [value]="usuario" [(ngModel)]="usuario" required></ion-input>
+            </ion-item>
+
+            <ion-item class="input">
+              <ion-label floating>
+                <ion-icon name="lock" item-start class="text-yellow"></ion-icon>
+                Contraseña
+              </ion-label>
+              <ion-input type="password" [value]="password" [(ngModel)]="password"></ion-input>
+            </ion-item>
+      </div>
+    <!--   </form> -->
+    <div class="otro">
+      <button ion-button icon-start block color="yellow" (click)="login() ">
+        <ion-icon name="log-in"></ion-icon>
+        Ingresa
+      </button>
+    </div>
+  </div>
+</ion-content>

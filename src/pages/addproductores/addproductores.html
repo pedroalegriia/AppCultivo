@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="navbarColor">
+    <ion-title>Lista productores</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="cover">
+<ion-list no-lines>
+<div class="input">
+              <ion-item *ngFor="let note of notes" (click)="goDatail()" >
+          <span>{{ note.nombre }}</span>
+              </ion-item>
+</div>
+</ion-list>
+<ion-fab>
+   <button ion-fab color="green" (click)="createNote()">
+     <ion-icon name="add"></ion-icon>
+   </button>
+ </ion-fab>
+</ion-content>

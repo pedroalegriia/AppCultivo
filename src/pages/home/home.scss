@@ -1,0 +1,70 @@
+page-home {
+
+  //ponemos la imagen de fondo
+.cover{
+  background-image: url(../assets/imgs/fondo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+//bajamos los items
+.cover ion-item{
+  margin-top: 10px;
+}
+
+//ponemos transparente los input
+.input{
+  background-color: rgba(0,0,0,0 );
+  border: none;
+  color: yellow;
+   color: #333;
+   ::-webkit-input-placeholder { color: #666;}
+:-moz-placeholder { color: #666; }
+::-moz-placeholder { color: #666; }
+:-ms-input-placeholder { color: #666; }
+}
+
+.cover ion-select{
+  background-color: rgba(0,0,0,0 );
+}
+//cambiamos configuracion del parrafo
+.cover p{
+  color: yellow;
+  margin-top: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.boton1{
+  text-decoration: none;
+  padding: 40px;
+  left: 2%;
+  width: 160px;
+  font-family: arial;
+  text-transform: uppercase;
+  margin-top: 140px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 800;
+  font-size: 15px;
+  color: #0B610B;
+  background-color: #FFFF00;
+}
+.boton2{
+  text-decoration: none;
+  padding: 40px;
+  left: 2.9%;
+  width: 170px;
+  font-family: arial;
+  text-transform: uppercase;
+  margin-top: 140px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 800;
+  font-size: 15px;
+  color: #0B610B;
+  background-color: #FFFF00;
+}
+
+
+}

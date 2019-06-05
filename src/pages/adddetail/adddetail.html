@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="yellow">
+    <ion-title>Agregar productor</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="cover">
+  <ion-list>
+  <div class="input">
+        <ion-item>
+          <ion-label floating>Nombre</ion-label>
+          <ion-input name="nombre" type="text" [(ngModel)]="note.nombre" required></ion-input>
+        </ion-item>
+  </div>
+        <div class="botones">
+              <button ion-button block (click)="addNote()">Agregar</button>
+              <button ion-button block color="danger" (click)="showConfirm()">Eliminar</button>
+        </div>
+</ion-list>
+
+</ion-content>
